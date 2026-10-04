@@ -26,10 +26,21 @@ Open, because everything here is open. Basalt, because it is the base.
 
 ## Projects
 
-Coming soon. The first projects are being prepared for release.
+Each project lives in its own repository and has its own release cycle. All of
+them are young: they work in the source today, and none has a stable release
+yet.
 
 | Project | What |
 |---|---|
-| basalt-os | Reserved for a future Linux distribution. |
+| [Basalt OS](https://basalt-os.org) | A Linux distribution based on Fedora, built security and AI first. Pre-alpha. Lives in its own organization, [basalt-os](https://github.com/basalt-os). |
+| [samba-conductor](https://github.com/openbasalt/samba-conductor) | Web administrator and self-service portal for Samba Active Directory, with companion repositories for backups, file servers, identity and Google Workspace sync. Pre-release. |
+| [obpkg.org](https://obpkg.org) | Signed packages: basalt for Basalt OS, basalt-tools for our tools on Fedora-based systems, basalt-testing (opt-in) for packages on their way. |
+
+We build on the work of others: Basalt OS on Fedora, Samba Conductor on Samba,
+and everything here on years of open source work. We try new ideas in the open
+and send what belongs upstream back where it came from.
+
+To try Basalt OS and tell us what you think, see
+[basalt-os.org](https://basalt-os.org/#feedback).
 
 [openbasalt.org](https://openbasalt.org)
